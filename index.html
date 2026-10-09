@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FOUR KINGS Command Room</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="app-header">
+    <h1>FOUR KINGS Command Room</h1>
+    <p class="app-subtitle">四天王AI 回答メモ・整理</p>
+  </header>
+
+  <main class="container">
+    <section class="card" id="card-chatgpt">
+      <div class="card-header">
+        <label for="input-chatgpt" class="ai-label">ChatGPT</label>
+      </div>
+      <textarea id="input-chatgpt" class="ai-input" placeholder="ChatGPTの回答を入力..."></textarea>
+    </section>
+
+    <section class="card" id="card-gemini">
+      <div class="card-header">
+        <label for="input-gemini" class="ai-label">Gemini</label>
+      </div>
+      <textarea id="input-gemini" class="ai-input" placeholder="Geminiの回答を入力..."></textarea>
+    </section>
+
+    <section class="card" id="card-grok">
+      <div class="card-header">
+        <label for="input-grok" class="ai-label">Grok</label>
+      </div>
+      <textarea id="input-grok" class="ai-input" placeholder="Grokの回答を入力..."></textarea>
+    </section>
+
+    <section class="card" id="card-copilot">
+      <div class="card-header">
+        <label for="input-copilot" class="ai-label">Copilot</label>
+      </div>
+      <textarea id="input-copilot" class="ai-input" placeholder="Copilotの回答を入力..."></textarea>
+    </section>
+  </main>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
